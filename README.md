@@ -49,3 +49,5 @@ descriptions for some key arguments:
 
 `--split`: Int type. Indicates which layer to be decomposed and split. The value range is determined according to the model structure. For example, value ranges from 1 to 12 for bert-base and 1 to 24 for bert-large.
 `--rank`: Int type. Indicates the rank of svd decomposition of the split layer. The value range is determined according to the model structure. For example, value ranges from 1 to 768 for bert-base and 1 to 1024 for bert-large.
+
+Written by Bradley Aldous
