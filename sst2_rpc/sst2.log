@@ -1,0 +1,152 @@
+
+
+
+
+
+
+2024-10-14 13:21:07,374 - data.py[line:71] - INFO:共0条数据标签错误
+2024-10-14 13:21:07,588 - data.py[line:71] - INFO:共0条数据标签错误
+2024-10-14 13:21:10,448 - train.py[line:60] - INFO:epoch starts
+2024-10-14 13:27:09,784 - train.py[line:74] - INFO:epoch ends
+2024-10-14 13:27:11,353 - train.py[line:117] - INFO:epoch: 0 dev set loss: 0.03458557970856035 acc: 0.9105504587155964
+2024-10-14 13:27:11,353 - train.py[line:60] - INFO:epoch starts
+2024-10-14 13:33:10,623 - train.py[line:74] - INFO:epoch ends
+2024-10-14 13:33:12,146 - train.py[line:117] - INFO:epoch: 1 dev set loss: 0.03575138412330539 acc: 0.9220183486238532
+2024-10-14 13:33:12,146 - train.py[line:60] - INFO:epoch starts
+2024-10-14 13:39:47,630 - train.py[line:74] - INFO:epoch ends
+2024-10-14 13:39:49,472 - train.py[line:117] - INFO:epoch: 2 dev set loss: 0.04581875142154344 acc: 0.9002293577981652
+
+
+2024-10-15 09:28:36,838 - data.py[line:71] - INFO:A total of 0 data labels are incorrect
+2024-10-15 09:28:37,115 - data.py[line:71] - INFO:A total of 0 data labels are incorrect
+2024-10-15 09:28:50,465 - train.py[line:60] - INFO:epoch starts
+
+
+2024-10-15 11:02:14,753 - data.py[line:71] - INFO: A total of 0 data labels are incorrect
+2024-10-15 11:02:15,162 - data.py[line:71] - INFO: A total of 0 data labels are incorrect
+2024-10-15 11:02:24,880 - train.py[line:60] - INFO: Start of epoch
+2024-10-15 11:08:08,774 - train.py[line:74] - INFO:End of epoch
+2024-10-15 11:08:10,281 - train.py[line:117] - INFO:Epoch: 0 dev set loss: 0.031858507197760386 acc: 0.9220183486238532
+2024-10-15 11:08:10,281 - train.py[line:60] - INFO: Start of epoch
+2024-10-15 11:13:56,236 - train.py[line:74] - INFO:End of epoch
+2024-10-15 11:13:57,716 - train.py[line:117] - INFO:Epoch: 1 dev set loss: 0.040262503263224426 acc: 0.8990825688073395
+2024-10-15 11:13:57,716 - train.py[line:60] - INFO: Start of epoch
+2024-10-15 11:19:38,047 - train.py[line:74] - INFO:End of epoch
+2024-10-15 11:19:39,575 - train.py[line:117] - INFO:Epoch: 2 dev set loss: 0.046676578862088466 acc: 0.9243119266055045
+
+
+
+
+2024-10-16 13:26:34,805 - data.py[line:51] - INFO:Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 13:26:46,689 - data.py[line:81] - INFO:Processed 67349 samples successfully.
+2024-10-16 13:26:46,690 - data.py[line:82] - INFO:A total of 0 data labels are incorrect
+2024-10-16 13:26:46,749 - data.py[line:51] - INFO:Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 13:26:46,915 - data.py[line:81] - INFO:Processed 872 samples successfully.
+2024-10-16 13:26:46,915 - data.py[line:82] - INFO:A total of 0 data labels are incorrect
+2024-10-16 13:26:52,358 - train.py[line:60] - INFO: Start of epoch
+
+
+2024-10-16 16:03:16,859 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 16:03:29,661 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 16:03:29,662 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:03:29,739 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 16:03:29,943 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 16:03:29,943 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:03:38,920 - train.py[line:100] - INFO: Start of epoch
+
+
+2024-10-16 16:07:41,761 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 16:07:54,122 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 16:07:54,122 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:07:54,180 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 16:07:54,356 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 16:07:54,356 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:07:59,178 - train.py[line:100] - INFO: Start of epoch
+
+
+2024-10-16 16:15:52,854 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 16:16:05,172 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 16:16:05,172 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:16:05,237 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 16:16:05,415 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 16:16:05,415 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 16:16:12,541 - train.py[line:100] - INFO: Start of epoch
+2024-10-16 16:21:35,533 - train.py[line:119] - INFO: End of epoch
+2024-10-16 16:21:37,028 - train.py[line:146] - INFO: Epoch: 0, dev set loss: 0.030404915200084995, acc: 0.9311926605504587
+2024-10-16 16:21:37,029 - train.py[line:100] - INFO: Start of epoch
+2024-10-16 16:27:03,942 - train.py[line:119] - INFO: End of epoch
+2024-10-16 16:27:05,386 - train.py[line:146] - INFO: Epoch: 1, dev set loss: 0.033282700268158674, acc: 0.9162844036697247
+2024-10-16 16:27:05,387 - train.py[line:100] - INFO: Start of epoch
+2024-10-16 16:32:36,004 - train.py[line:119] - INFO: End of epoch
+2024-10-16 16:32:37,427 - train.py[line:146] - INFO: Epoch: 2, dev set loss: 0.03727325095171365, acc: 0.9220183486238532
+
+
+2024-10-16 16:36:35,681 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+
+
+2024-10-16 16:37:46,887 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+
+
+2024-10-16 16:40:58,257 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+
+
+2024-10-16 17:07:51,339 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 17:08:02,973 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 17:08:02,973 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:08:03,028 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 17:08:03,198 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 17:08:03,198 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+
+
+2024-10-16 17:08:28,552 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 17:08:40,608 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 17:08:40,608 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:08:40,666 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 17:08:40,837 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 17:08:40,837 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:08:40,837 - train.py[line:45] - INFO:Split layer: 12
+2024-10-16 17:08:40,837 - train.py[line:46] - INFO:Rank of decomposition: 8
+
+
+2024-10-16 17:15:32,421 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 17:15:44,175 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 17:15:44,175 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:15:44,241 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 17:15:44,420 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 17:15:44,421 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:15:44,421 - train.py[line:45] - INFO:Split layer: 8
+2024-10-16 17:15:44,421 - train.py[line:46] - INFO:Rank of decomposition: 8
+2024-10-16 17:15:56,385 - train.py[line:107] - INFO: Start of epoch
+
+
+2024-10-16 17:16:28,132 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 17:16:39,642 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 17:16:39,642 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:16:39,700 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 17:16:39,865 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 17:16:39,865 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 17:16:39,865 - train.py[line:45] - INFO:Split layer: 12
+2024-10-16 17:16:39,865 - train.py[line:46] - INFO:Rank of decomposition: 8
+2024-10-16 17:16:45,288 - train.py[line:107] - INFO: Start of epoch
+
+
+2024-10-16 18:34:47,745 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-16 18:34:59,043 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-16 18:34:59,043 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 18:34:59,097 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-16 18:34:59,249 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-16 18:34:59,249 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-16 18:34:59,249 - train.py[line:45] - INFO: Split layer: 12
+2024-10-16 18:34:59,249 - train.py[line:46] - INFO: Rank of decomposition: 8
+2024-10-16 18:35:20,444 - train.py[line:107] - INFO: Start of epoch
+
+
+2024-10-17 12:57:13,834 - data.py[line:51] - INFO: Reading 67349 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/train.tsv
+2024-10-17 12:57:25,416 - data.py[line:81] - INFO: Processed 67349 samples successfully.
+2024-10-17 12:57:25,416 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-17 12:57:25,483 - data.py[line:51] - INFO: Reading 872 lines from /import/c4dm-05/bja01/models/splitfinetuning/data/SST-2/dev.tsv
+2024-10-17 12:57:25,659 - data.py[line:81] - INFO: Processed 872 samples successfully.
+2024-10-17 12:57:25,659 - data.py[line:82] - INFO: A total of 0 data labels are incorrect
+2024-10-17 12:57:25,659 - train.py[line:45] - INFO: Split layer: 12
+2024-10-17 12:57:25,659 - train.py[line:46] - INFO: Rank of decomposition: 8
+2024-10-17 12:57:34,300 - train.py[line:107] - INFO: Start of epoch

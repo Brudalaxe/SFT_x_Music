@@ -1,0 +1,9 @@
+
+2024-10-14 12:04:36,739 - data.py[line:71] - INFO:共0条数据标签错误
+2024-10-14 12:04:36,877 - data.py[line:71] - INFO:共0条数据标签错误
+2024-10-14 12:07:14,375 - train.py[line:94] - INFO:epoch: 0 train set loss: 0.022726838934493048 acc: 0.9494276084277421
+2024-10-14 12:07:14,877 - train.py[line:115] - INFO:epoch: 0 dev set loss: 0.04219742743896508 acc: 0.9013761467889908
+2024-10-14 12:09:44,751 - train.py[line:94] - INFO:epoch: 1 train set loss: 0.01166892525987619 acc: 0.9751443970957252
+2024-10-14 12:09:45,208 - train.py[line:115] - INFO:epoch: 1 dev set loss: 0.05011818850190815 acc: 0.8910550458715596
+2024-10-14 12:12:15,144 - train.py[line:94] - INFO:epoch: 2 train set loss: 0.007970325242329242 acc: 0.9835335342766782
+2024-10-14 12:12:15,590 - train.py[line:115] - INFO:epoch: 2 dev set loss: 0.043916859014660393 acc: 0.9128440366972477

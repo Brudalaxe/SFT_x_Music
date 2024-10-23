@@ -16,8 +16,8 @@ sys.path.append(root)
 
 parser = argparse.ArgumentParser()
 # path settings
-parser.add_argument("--pretrain_dir", type=str, default="/userhome/pretrain/bert-base-uncased")
-parser.add_argument("--data_dir", type=str, default="/userhome/data/CoLA")
+parser.add_argument("--pretrain_dir", type=str, default="/import/c4dm-05/bja01/models/splitfinetuning/pretrain/bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594/")
+parser.add_argument("--data_dir", type=str, default="/import/c4dm-05/bja01/models/splitfinetuning/data/CoLA")
 parser.add_argument("--save_path", type=str, default="cola.pt")
 parser.add_argument("--log_path", type=str, default="cola.log")
 

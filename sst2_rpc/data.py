@@ -44,31 +44,42 @@ class TextClassificationDataset(Dataset):
                 if not line:
                     continue
                 data.append(line)
-        data.pop(0)
+        data.pop(0)  # Remove the header row
 
         error_line_nums = 0
-        for line in tqdm(data, desc="processing data", leave=False):
-            text, label = line.split('\t')
-            if label not in self.label2id:
+        total_lines = len(data) 
+        logger.info(f" Reading {total_lines} lines from {data_path}")  # Log total lines
+
+        for i, line in enumerate(tqdm(data, desc="Processing data", leave=False)):
+            try: 
+                text, label = line.split('\t')
+                if label not in self.label2id:
+                    error_line_nums += 1
+                    logger.warning(f" Line {i+1}: Invalid label '{label}' - Skipping")  # Log warning for invalid labels
+                    continue
+                self.sample.append(line)
+
+                encode_text = self.tokenizer(text,
+                                            max_length=max_length,
+                                            padding='max_length',
+                                            truncation=True,
+                                            return_tensors='pt')
+
+                self.input_ids.append(encode_text['input_ids'])
+                self.token_type_ids.append(encode_text['token_type_ids'])
+                self.attention_mask.append(encode_text['attention_mask'])
+                if need_label:
+                    self.labels.append(torch.tensor([self.label2id[label]], dtype=torch.int64))
+                else:
+                    self.labels.append(torch.tensor([-1], dtype=torch.int64))
+
+            except ValueError as e:
                 error_line_nums += 1
+                logger.error(f" Line {i+1}: Error processing line - {e}") # Log errors during processing
                 continue
-            self.sample.append(line)
 
-            encode_text = self.tokenizer(text,
-                                         max_length=max_length,
-                                         padding='max_length',
-                                         truncation=True,
-                                         return_tensors='pt')
-
-            self.input_ids.append(encode_text['input_ids'])
-            self.token_type_ids.append(encode_text['token_type_ids'])
-            self.attention_mask.append(encode_text['attention_mask'])
-            if need_label:
-                self.labels.append(torch.tensor([self.label2id[label]], dtype=torch.int64))
-            else:
-                self.labels.append(torch.tensor([-1], dtype=torch.int64))
-
-        logger.info(f"共{error_line_nums}条数据标签错误")
+        logger.info(f" Processed {total_lines - error_line_nums} samples successfully.")  # Log successful samples
+        logger.info(f" A total of {error_line_nums} data labels are incorrect")
 
     def __getitem__(self, idx):
         return {

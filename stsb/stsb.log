@@ -1,0 +1,7 @@
+
+2024-10-14 12:13:28,637 - train.py[line:97] - INFO:epoch: 0 train set loss: 0.11947032794216307 spearmanr: 0.8091163860051204
+2024-10-14 12:13:30,407 - train.py[line:121] - INFO:epoch: 0 dev set loss: 0.13672624597946803 spearmanr: 0.8284566154743322
+2024-10-14 12:13:59,157 - train.py[line:97] - INFO:epoch: 1 train set loss: 0.07306575882768863 spearmanr: 0.8790885823329382
+2024-10-14 12:14:00,939 - train.py[line:121] - INFO:epoch: 1 dev set loss: 0.10417331650853157 spearmanr: 0.857640213880119
+2024-10-14 12:14:29,839 - train.py[line:97] - INFO:epoch: 2 train set loss: 0.07841144860558422 spearmanr: 0.892218442426168
+2024-10-14 12:14:31,619 - train.py[line:121] - INFO:epoch: 2 dev set loss: 0.10991833418607712 spearmanr: 0.8605754739102817

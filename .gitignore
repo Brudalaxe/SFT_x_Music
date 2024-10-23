@@ -1,0 +1,8 @@
+data/
+pretrain/
+musicbert/lmd_full/
+musicbert/topmagd_data_bin/
+musicbert/topmagd_data_raw/
+musicbert/lmd_full.tar.gz
+musicbert/lmd_full.zip
+musicbert/midi_genre_map.json

@@ -1,0 +1,7 @@
+
+2024-10-14 11:53:42,146 - train.py[line:27] - INFO:total nums of train set : 87523
+2024-10-14 11:53:55,025 - train.py[line:32] - INFO:total nums of dev set : 10536
+2024-10-14 12:32:59,413 - train.py[line:130] - INFO:epoch: 0 train set loss: 0.9935465455055237 metric: {'exact_match': 70.36664648149629, 'f1': 82.97803815810664}
+2024-10-14 12:34:07,632 - train.py[line:183] - INFO:epoch: 0 dev set loss: 0.5168531537055969 metric: {'exact_match': 73.1586940015186, 'f1': 81.91909411208007}
+2024-10-14 13:13:08,343 - train.py[line:130] - INFO:epoch: 1 train set loss: 0.7281979918479919 metric: {'exact_match': 76.9923334437805, 'f1': 88.06731763422748}
+2024-10-14 13:14:16,471 - train.py[line:183] - INFO:epoch: 1 dev set loss: 0.4958173930644989 metric: {'exact_match': 74.94305239179954, 'f1': 83.70117689188122}

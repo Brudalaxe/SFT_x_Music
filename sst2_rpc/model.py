@@ -15,6 +15,7 @@ from transformers import BertModel, BertTokenizerFast
 
 from config import args
 
+# Split fine-tuning with SVD compression
 
 class BertFrontDecomposition(nn.Module):
     def __init__(self, pretrain_dir, split_num, rank, device):
@@ -107,7 +108,7 @@ class BertBackDecomposition(nn.Module):
 
         hidden_states = self.dense_u(hidden_states)
         hidden_states = self.intermediate_act_fn(hidden_states)
-        hidden_states = self.output.dense(hidden_states)
+        hidden_states = self.output.dense(hidden_states)  # Query: This implementation only splits the FFN layer into FFN-1 and FFN-2 (rather than 3 as described in the paper)?
         hidden_states = self.output.dropout(hidden_states)
         hidden_states = self.output.LayerNorm(hidden_states)
 
@@ -146,6 +147,8 @@ class DistBertDecomposition(nn.Module):
 
         return remote_params
 
+
+# Split learning
 
 class BertFrontOri(nn.Module):
     def __init__(self, pretrain_dir, split_num, rank, device):
@@ -241,6 +244,7 @@ class DistBertOri(nn.Module):
 
         return remote_params
 
+# Split fine-tuning without SVD compression
 
 class BertFrontFFN(nn.Module):
     def __init__(self, pretrain_dir, split_num, rank, device):
